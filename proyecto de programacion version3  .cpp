@@ -42,7 +42,7 @@ int main() {
         cout << "1. Mostrar inventario de animales" << endl;
         cout << "2. Agregar animal" << endl;
         cout << "0. Salir" << endl;
-        cout << "Seleccione una opción: ";
+        cout << "Seleccione una opcion: ";
         cin >> opcion;
 
         switch (opcion) {
@@ -56,7 +56,7 @@ int main() {
                 cout << "Saliendo del menú de animales." << endl;
                 break;
             default:
-                cout << "Opción no válida. Inténtelo de nuevo." << endl;
+                cout << "Opción no valida. Intentelo de nuevo." << endl;
         }
     } while (opcion != 0);
 
