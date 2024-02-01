@@ -151,9 +151,9 @@ void recomendarAlimentos(const string& tipoAnimal, const vector<string>& prefere
 
     if (preferencias[2] == "saludable") {
         cout << "- Ofrecer agua fresca diariamente." << endl;
-        cout << "- Proporcionar una dieta balanceada según las preferencias alimentarias." << endl;
+        cout << "- Proporcionar una dieta balanceada segun las preferencias alimentarias." << endl;
     } else if (preferencias[2] == "enfermo") {
-        cout << "- Consultar con el veterinario para una dieta especifica según la enfermedad." << endl;
+        cout << "- Consultar con el veterinario para una dieta especifica segun la enfermedad." << endl;
         cout << "- Mantener la hidratacion con agua fresca y limpia." << endl;
     } else if (preferencias[2] == "anciano") {
         cout << "- Considerar una dieta baja en grasas para animales ancianos." << endl;
