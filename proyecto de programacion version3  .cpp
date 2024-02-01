@@ -56,7 +56,7 @@ int main() {
                 cout << "Saliendo del menú de animales." << endl;
                 break;
             default:
-                cout << "Opción no valida. Intentelo de nuevo." << endl;
+                cout << "Opcion no valida. Intentelo de nuevo." << endl;
         }
     } while (opcion != 0);
 
