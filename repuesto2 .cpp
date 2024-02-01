@@ -77,7 +77,7 @@ void quitarObjeto(Objeto inventario[], int &tam) {
         int cantidadQuitada;
         cout << "Ingrese la cantidad que desea quitar: ";
         while (!(cin >> cantidadQuitada)) {
-            cout << "Por favor, ingrese un valor válido para la cantidad." << endl;
+            cout << "Por favor, ingrese un valor valido para la cantidad." << endl;
             limpiarBuffer();
         }
 
@@ -97,7 +97,7 @@ void quitarObjeto(Objeto inventario[], int &tam) {
             cout << "No hay suficiente cantidad para quitar." << endl;
         }
     } else {
-        cout << "El objeto no está en el inventario." << endl;
+        cout << "El objeto no esta en el inventario." << endl;
     }
 
     limpiarBuffer();
